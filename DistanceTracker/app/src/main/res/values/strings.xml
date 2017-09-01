@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DistanceTracker</string>
+    <string name="host">Host</string>
+    <string name="username">Username</string>
+    <string name="start">Start</string>
+    <string name="display_distance">DisplayDistance</string>
+</resources>

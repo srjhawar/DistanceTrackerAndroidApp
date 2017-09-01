@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter host"/>
+    <EditText android:id="@+id/host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/host" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter username"/>
+    <EditText android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username" />
+    <Button android:id="@+id/start_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/start"
+        android:onClick="startLocation"/>
+    <TextView android:id="@+id/display_distance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Distance walked : "/>
+</LinearLayout>
